@@ -1,0 +1,14 @@
+# macOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python local server artifacts
+__pycache__/
+*.pyc
