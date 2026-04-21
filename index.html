@@ -382,7 +382,14 @@ section:nth-child(even) { background: #ffffff; }
 
 /* =============== Contact =============== */
 .contact-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+}
+.contact-person {
+  padding: 14px 0;
+  border-top: 1px dashed var(--border);
+}
+.contact-person:first-of-type {
+  border-top: none; padding-top: 0;
 }
 .contact-card {
   background: #fff; border: 1px solid var(--border);
@@ -759,19 +766,23 @@ footer .footer-disclosure {
       </article>
       <article class="contact-card">
         <div class="contact-role">Drug Development</div>
-        <div class="contact-name">Do Soo Jang, Ph.D.</div>
-        <div class="contact-title">R&amp;D Director</div>
-        <div class="contact-org">Huons BioPharma</div>
-        <a href="mailto:dosoo.jang@huonsbiopharma.com" class="contact-email">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          dosoo.jang@huonsbiopharma.com
-        </a>
-      </article>
-      <article class="contact-card">
-        <div class="contact-role">Bio Research</div>
-        <div class="contact-name">Ukjin Son</div>
-        <div class="contact-title">Manager / Assistant Team Leader</div>
-        <div class="contact-org">Bio Research 3 Team<br>Huons BioPharma</div>
+        <div class="contact-org" style="margin-bottom:18px;">Huons BioPharma</div>
+        <div class="contact-person">
+          <div class="contact-name">Do Soo Jang, Ph.D.</div>
+          <div class="contact-title">R&amp;D Director</div>
+          <a href="mailto:dosoo.jang@huonsbiopharma.com" class="contact-email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            dosoo.jang@huonsbiopharma.com
+          </a>
+        </div>
+        <div class="contact-person">
+          <div class="contact-name">Ukjin Son</div>
+          <div class="contact-title">Manager / Assistant Team Leader<br>Bio Research 3 Team</div>
+          <a href="mailto:ukjin.son@huonsbiopharma.com" class="contact-email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            ukjin.son@huonsbiopharma.com
+          </a>
+        </div>
       </article>
     </div>
   </div>
