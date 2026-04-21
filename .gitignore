@@ -12,3 +12,6 @@ desktop.ini
 # Python local server artifacts
 __pycache__/
 *.pyc
+
+# Internal workflow docs (kept local only, not pushed to public repo)
+UPDATE_GUIDE.md
